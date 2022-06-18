@@ -1,4 +1,3 @@
-// Viral Science www.viralsciencecreativity.com www.youtube.com/c/viralscience
 // IOT Smart Plant Monitoring System
 #define BLYNK_PRINT Serial   
 #include <SPI.h>
@@ -13,9 +12,9 @@
 OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
 
-char auth[] ="----------------";               //Authentication code sent by Blynk
-char ssid[] = "-------";                       //WiFi SSID
-char pass[] = "-------";                       //WiFi Password
+char auth[] ="----------------";           //Authentication code sent by Blynk
+char ssid[] = "-------";                   //WiFi SSID
+char pass[] = "-------";                   //WiFi Password
 
 #define sensorPin D3 
 int sensorState = 0;
