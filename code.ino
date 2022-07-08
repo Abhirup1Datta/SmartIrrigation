@@ -82,7 +82,7 @@ if (sensorState == 1 && lastState == 0) {
   delay(1000);
   }
   else {
-    //st
+    //stop
     Serial.println("does not need water");
     lastState = 0;
     delay(1000);
