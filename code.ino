@@ -77,7 +77,7 @@ if (sensorState == 1 && lastState == 0) {
     
   } 
   else if (sensorState == 1 && lastState == 1) {
-    //do nothing, has not been watered yet
+    // has not been watered yet
   Serial.println("has not been watered yet");
   delay(1000);
   }
